@@ -3,13 +3,13 @@
 
 多看手写js系列ヾ(◍°∇°◍)ﾉﾞ
 ## 基础篇
--[x] 手写apply
--[x] 手写call
--[x] 手写bind
--[x] 手写new
--[x] 手写instanceof
+- [x] 手写apply
+- [x] 手写call
+- [x] 手写bind
+- [x] 手写new
+- [x] 手写instanceof
 ## 算法类
--[x] 洗牌算法
--[x] 斐波那契数列
+- [x] 洗牌算法
+- [x] 斐波那契数列
 ## 函数式编程类
--[x] 柯里化函数
+- [x] 柯里化函数
