@@ -4,6 +4,6 @@ function currying(fn, ...args) {
 }
 
 /** 参考资料
- *  - conardli.《函数柯里化》.http://www.conardli.top/docs/JavaScript/%E5%87%BD%E6%95%B0%E6%9F%AF%E9%87%8C%E5%8C%96.html
+ *  - conardli.《函数柯里化》.发表于http://www.conardli.top/docs/JavaScript/%E5%87%BD%E6%95%B0%E6%9F%AF%E9%87%8C%E5%8C%96.html
  *
  */

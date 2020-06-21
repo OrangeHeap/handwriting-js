@@ -15,6 +15,6 @@ function disorder(array) {
 }
 
 /** 参考资料
- *  - conardli.《数组乱序-洗牌算法》.http://www.conardli.top/docs/JavaScript/%E6%95%B0%E7%BB%84%E4%B9%B1%E5%BA%8F-%E6%B4%97%E7%89%8C%E7%AE%97%E6%B3%95.html
+ *  - conardli.《数组乱序-洗牌算法》.发表于http://www.conardli.top/docs/JavaScript/%E6%95%B0%E7%BB%84%E4%B9%B1%E5%BA%8F-%E6%B4%97%E7%89%8C%E7%AE%97%E6%B3%95.html
  *
  */
