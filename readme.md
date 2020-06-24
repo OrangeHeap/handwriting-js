@@ -8,6 +8,8 @@
 - [x] 手写bind bind.js
 - [x] 手写new new.js
 - [x] 手写instanceof instanceof.js
+- [x] 手写object.create object-create.js
+- [x] 手写JavaScript中的继承 inherit.js
 ## 算法类 - algorithm
 - [x] 洗牌算法 disorder.js
 - [x] 斐波那契数列 fibonacci.js
@@ -19,6 +21,7 @@
 - [x] 防抖 throttle.js
 - [x] 实现sleep函数 sleep.js
 - [x] 实现jsonp jsonp.js
+- [x] 实现限定数量的并发请求 sendRequest.js
 ## 设计模式相关 - design-pattern
 - [x] 实现EventEmitter simpleEventEmitter.js
 
