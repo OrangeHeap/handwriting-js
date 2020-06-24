@@ -10,6 +10,7 @@
 - [x] 手写instanceof instanceof.js
 - [x] 手写object.create object-create.js
 - [x] 手写JavaScript中的继承 inherit.js
+- [x] 实现promise promise.js
 ## 算法类 - algorithm
 - [x] 洗牌算法 disorder.js
 - [x] 斐波那契数列 fibonacci.js
@@ -27,7 +28,6 @@
 
 ## TODO
 - [ ] 添加单元测试脚本
-- [ ] 实现promise
 - [ ] 实现上拉刷新
 - [ ] 实现下拉加载
 - [ ] 实现图片懒加载
