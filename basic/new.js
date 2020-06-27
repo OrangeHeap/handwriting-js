@@ -9,7 +9,7 @@ function myNew(fn, ...args) {
   obj.__proto__ = fn.prototype;
 
   // 执行方法，获得返回值
-  const result = fn.apply(obj, ...args)
+  const result = fn.call(obj, ...args)
 
   // 如果返回值是一个对象，我们就返回这个对象，如果没有就正常返回
   return typeof result === 'object' ? result : obj;
