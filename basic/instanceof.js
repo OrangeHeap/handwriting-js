@@ -3,7 +3,7 @@ function myInstanceof01 (target, origin) {
   const proto = target.__proto__;
 
   if (proto) {
-    return origin.prototype === proto ? true : myInstanceof(proto, origin);
+    return origin.prototype === proto ? true : myInstanceof01(proto, origin);
   } else {
     return false
   }
