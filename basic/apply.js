@@ -5,6 +5,7 @@ Function.prototype.myApply = function (context = window, ...args) {
 
   const fn = Symbol('fn');
   context = context || window;
+  context[fn] = this;
   const result = Array.isArray(args) ? context[fn](...args) : context[fn]();
   delete context[fn]
 
