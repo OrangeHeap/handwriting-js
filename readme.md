@@ -25,6 +25,7 @@
 - [x] 实现限定数量的并发请求 sendRequest.js
 ## 设计模式相关 - design-pattern
 - [x] 实现EventEmitter simpleEventEmitter.js
+- [x] 实现单例模式
 
 ## TODO
 - [ ] 添加单元测试脚本
@@ -37,4 +38,3 @@
 - [ ] 实现扁平
 - [ ] 实现最值
 - [ ] 基于promise的ajax封装
-- [ ] 实现单例模式
