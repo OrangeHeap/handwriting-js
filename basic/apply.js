@@ -1,7 +1,5 @@
 Function.prototype.myApply = function (context = window, ...args) {
-  if (this === Function.prototype) {
-    return undefined;
-  }
+  if (this === Function.prototype) return undefined;
 
   const fn = Symbol('fn');
   context = context || window;

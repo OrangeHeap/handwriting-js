@@ -23,17 +23,16 @@
 - [x] 实现sleep函数 sleep.js
 - [x] 实现jsonp jsonp.js
 - [x] 实现限定数量的并发请求 sendRequest.js
+- [x] 实现深浅拷贝 copy.js
 ## 设计模式相关 - design-pattern
 - [x] 实现EventEmitter simpleEventEmitter.js
-- [x] 实现单例模式
+- [x] 实现单例模式 singleton.js
 
 ## TODO
 - [ ] 添加单元测试脚本
 - [ ] 实现上拉刷新
 - [ ] 实现下拉加载
 - [ ] 实现图片懒加载
-- [ ] 实现深浅拷贝
-- [ ] 实现单例模式
 - [ ] 实现去重
 - [ ] 实现扁平
 - [ ] 实现最值

@@ -3,11 +3,14 @@ Function.prototype.myBind = function (context, ...args) {
     throw new Error('Function.prototype.myBind - what is trying to be bound is not callable');
   }
 
+  // 保存this的值，它代表调用 bind 的函数
   const self = this;
 
   let fBound = function () {
-    return self.apply(this instanceof self ?
+    self.apply(this instanceof self ?
+      // 对于普通函数，绑定this指向
       this :
+      // 对于构造函数，要保证原函数的原型对象上的属性不能丢失
       context, args.concat(Array.prototype.slice.call(arguments)));
   }
 

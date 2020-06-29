@@ -19,3 +19,4 @@ function myNew(fn, ...args) {
  *  - 神三元.《001: 如何模拟实现一个new的效果？》.发表于http://47.98.159.95/my_blog/js-api/001.html
  *  - 冴羽.《JavaScript深入之new的模拟实现》.发表于https://github.com/mqyqingfeng/Blog/issues/13
  */
+
